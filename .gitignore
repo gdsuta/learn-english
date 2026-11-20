@@ -1,0 +1,6 @@
+# Wrangler local dev cache
+.wrangler/
+
+# Local tooling files
+Claude outputs/
+node_modules/

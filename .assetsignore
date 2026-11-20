@@ -6,3 +6,4 @@ Claude outputs
 wrangler.jsonc
 .assetsignore
 README.md
+.gitignore
