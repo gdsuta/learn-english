@@ -1,0 +1,12 @@
+// Cloudflare Worker config: serves this static site with Workers Static Assets.
+// No Worker script is needed — every request is answered from the files below.
+{
+  "name": "learn-english",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    // Serve the repository root; files listed in .assetsignore are not uploaded.
+    "directory": "./",
+    // /vocabulary serves vocabulary.html, / serves index.html
+    "html_handling": "auto-trailing-slash"
+  }
+}

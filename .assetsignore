@@ -1,0 +1,8 @@
+# Files that must not be uploaded as public website assets
+.git
+.wrangler
+node_modules
+Claude outputs
+wrangler.jsonc
+.assetsignore
+README.md
