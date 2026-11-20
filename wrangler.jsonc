@@ -3,6 +3,10 @@
 {
   "name": "learn-english",
   "compatibility_date": "2026-11-01",
+  // Set explicitly (the build log warned they were implicit): keep the
+  // learn-english.<subdomain>.workers.dev URL and per-version preview URLs.
+  "workers_dev": true,
+  "preview_urls": true,
   "assets": {
     // Serve the repository root; files listed in .assetsignore are not uploaded.
     "directory": "./",

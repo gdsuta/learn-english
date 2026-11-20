@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Activities · Classroom English</title>
+  <meta name="description" content="35 classroom activities for Indonesian SD English lessons: Listen & Speak, Read & Listen, Write & Present — ready for the classroom screen.">
+  <meta name="theme-color" content="#fffcf4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151b2b" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/tts.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/activities/art.js" defer></script>
+  <script src="assets/js/activities/activities.js" defer></script>
+  <script src="assets/js/activities/kinds-practice.js" defer></script>
+  <script src="assets/js/activities/kinds-board.js" defer></script>
+  <script src="assets/js/activities/kinds-create.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Classroom English, home">classroom<b>English</b><small>untuk Guru SD</small></a>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="vocabulary.html">Vocabulary</a></li>
+          <li><a href="phrases.html">Phrases</a></li>
+          <li><a href="conversation.html">Conversation</a></li>
+          <li><a href="activities.html" aria-current="page">Activities</a></li>
+        </ul>
+      </nav>
+      <button class="audio-btn" type="button" popovertarget="audio-panel">
+        <svg class="icon" aria-hidden="true"><use href="#i-headphones"/></svg><span class="label-long">Audio</span><span class="visually-hidden"> settings</span>
+      </button>
+    </div>
+  </header>
+
+  <div id="audio-panel" class="audio-panel" popover aria-label="Audio settings">
+    <h2>Audio settings</h2>
+    <fieldset>
+      <legend>Accent</legend>
+      <div class="segmented">
+        <label><input type="radio" name="accent" value="en-GB"><span>British</span></label>
+        <label><input type="radio" name="accent" value="en-US"><span>American</span></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Speed</legend>
+      <div class="segmented">
+        <label><input type="radio" name="speed" value="slow"><span>Slow</span></label>
+        <label><input type="radio" name="speed" value="normal"><span>Normal</span></label>
+        <label><input type="radio" name="speed" value="fast"><span>Fast</span></label>
+      </div>
+    </fieldset>
+    <p class="note" data-audio-note>Uses your device's built-in English voice. Works best in Google Chrome.</p>
+  </div>
+
+  <main id="main">
+    <div class="container">
+      <header class="page-head">
+        <p class="eyebrow">Aktivitas kelas</p>
+        <h1>Classroom <span class="hl">Activities</span></h1>
+        <p>35 activities for your English lessons. Choose a skill, open an activity, then press <strong>Present</strong> (or <kbd>F</kbd>) to show it on the classroom screen.</p>
+      </header>
+      <div id="act-root" class="act-root"></div>
+      <p class="visually-hidden" id="live" aria-live="polite"></p>
+      <div class="act-bottom-space"></div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Audio uses your device's built-in English voice — works best in Google Chrome. Choose a British or American accent and a slower speed under <strong>Audio</strong> at the top of every page.</p>
+      <p>Free for teachers · Gratis untuk guru</p>
+    </div>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Main (mobile)">
+    <ul>
+      <li><a href="index.html"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg>Home</a></li>
+      <li><a href="vocabulary.html"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>Words</a></li>
+      <li><a href="phrases.html"><svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg>Phrases</a></li>
+      <li><a href="conversation.html"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Talk</a></li>
+      <li><a href="activities.html" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg>Activities</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

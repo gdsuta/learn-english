@@ -32,7 +32,11 @@
     award: '<circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/>',
     repeat: '<path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/>',
     alert: '<circle cx="12" cy="12" r="9.5"/><path d="M12 8v4M12 16h.01"/>',
-    user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>'
+    user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+    pencil: '<path d="M17 3a2.8 2.8 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/>',
+    maximize: '<path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/>',
+    minimize: '<path d="M8 3v3a2 2 0 0 1-2 2H3M21 8h-3a2 2 0 0 1-2-2V3M3 16h3a2 2 0 0 1 2 2v3M16 21v-3a2 2 0 0 1 2-2h3"/>',
+    puzzle: '<path d="M15.4 2.6a2 2 0 0 0-2.8 0L11 4.2a2.5 2.5 0 1 0-3.5 3.5L5.9 9.3a2 2 0 0 0 0 2.8l1.6 1.6a2.5 2.5 0 1 1 3.5 3.5l1.6 1.6a2 2 0 0 0 2.8 0l6.5-6.5a2 2 0 0 0 0-2.8l-1.6-1.6a2.5 2.5 0 1 0-3.5-3.5Z"/>'
   };
 
   function injectSprite() {
@@ -213,7 +217,71 @@
     });
   }
 
-  function init() { injectSprite(); initAudioPanel(); initSayButtons(); }
+  /* ---------- Present mode (fullscreen for the classroom screen) ----------
+     <button data-present="#selector"> toggles fullscreen on that element.
+     Falls back to a full-window overlay where the Fullscreen API is missing (e.g. iPhone). */
+  function presentingEl() {
+    return document.fullscreenElement || document.webkitFullscreenElement || document.querySelector('.is-presenting');
+  }
+  function syncPresentButtons() {
+    const on = presentingEl();
+    document.body.classList.toggle('presenting', !!on);
+    document.querySelectorAll('[data-present]').forEach((b) => {
+      if (b.classList.contains('present-exit')) return;
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      const span = b.querySelector('span');
+      if (span) span.textContent = on ? 'Exit' : 'Present';
+      const use = b.querySelector('use');
+      if (use) use.setAttribute('href', on ? '#i-minimize' : '#i-maximize');
+    });
+  }
+  function exitPresent() {
+    const fb = document.querySelector('.is-presenting');
+    if (fb) fb.classList.remove('is-presenting');
+    else if (document.fullscreenElement) document.exitFullscreen();
+    else if (document.webkitFullscreenElement) document.webkitExitFullscreen();
+    syncPresentButtons();
+  }
+  function togglePresent(sel) {
+    if (presentingEl()) { exitPresent(); return; }
+    const el = document.querySelector(sel);
+    if (!el) return;
+    const req = el.requestFullscreen || el.webkitRequestFullscreen;
+    const fallback = () => { el.classList.add('is-presenting'); syncPresentButtons(); };
+    if (req) {
+      const p = req.call(el);
+      if (p && p.catch) p.catch(fallback);
+    } else fallback();
+  }
+  function initPresent() {
+    document.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-present]');
+      if (b) togglePresent(b.getAttribute('data-present'));
+    });
+    document.addEventListener('fullscreenchange', syncPresentButtons);
+    document.addEventListener('webkitfullscreenchange', syncPresentButtons);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && document.querySelector('.is-presenting')) { exitPresent(); return; }
+      if ((e.key === 'f' || e.key === 'F') && !e.ctrlKey && !e.metaKey && !e.altKey && !e.target.closest('input, textarea, select, [contenteditable]')) {
+        const b = document.querySelector('[data-present]:not(.present-exit)');
+        if (b) { e.preventDefault(); togglePresent(b.getAttribute('data-present')); }
+      }
+    });
+  }
+
+  /* Home page: a small line-up of monsters from the activities. */
+  function homeArt() {
+    const fig = document.querySelector('[data-home-art]');
+    if (!fig || !window.Art) return;
+    fig.innerHTML = ['color=green eyes=3 arms=2 legs=2', 'color=yellow eyes=1 horns=2 legs=4 arms=2', 'color=purple spots=yes arms=4 mouth=teeth eyes=2']
+      .map((s) => Art.monster(s)).join('');
+  }
+
+  function init() {
+    injectSprite(); initAudioPanel(); initSayButtons(); initPresent();
+    // art.js is a later deferred script: wait until every deferred script has run.
+    if (window.Art) homeArt(); else document.addEventListener('DOMContentLoaded', homeArt);
+  }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();
 })();

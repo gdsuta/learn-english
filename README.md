@@ -31,6 +31,17 @@ This project started as a prototype built in Google Sites and is now being devel
 - **Role-play as teacher mode**: the computer speaks the students' lines. On the teacher's turn the user sees the Indonesian hint, says the English line aloud, then reveals the answer.
 - Optional **"Check my speaking"** using speech recognition (where the browser supports it)
 
+### 🧩 Activities (35)
+Ready-to-use classroom activities in three skills, made for the classroom screen:
+- **Listen & Speak (11):** listen and point, listen and choose the picture, arrange letters into words, arrange words into sentences, dictation, fill the comic speech bubbles, order the storyboard, listen and repeat (with speaking check), listen and do / Simon Says, listen and draw (drawing board), clue cards and talk
+- **Read & Listen (13):** read and match, order the pictures, read and perform (drama with roles), gap fill, choose the monster, jumbled letters, order sentences into a paragraph, read and answer, true or false, read and colour, find the missing part, read and retell, find the lost pet
+- **Write & Present (11):** write a story from a comic, family tree, greeting card, hobby survey with a bar chart, describe your pet, All About Me poster, label the body / a plant / a fish, write and perform a dialogue, show and tell
+- Monsters, pets, the colouring scene and the labelling diagrams are drawn as SVG from short text specs, so new items need no image files
+- Students' writing is saved in the browser
+
+### 🖥️ Present mode
+Every learning view (word list, flashcards, quiz, phrases, conversations, activities) has a **Present** button (or press **F**) that shows it fullscreen and enlarged for a projector or TV. On phones without the Fullscreen API it fills the window instead.
+
 ### 🏠 Home
 - How to use the site
 - A **4-week confidence plan** (15 minutes a day)
@@ -48,8 +59,8 @@ The prototype is written in plain web technologies, with no framework or build s
 - **HTML + CSS + vanilla JavaScript**
 - **Web Speech API**: `speechSynthesis` for audio, `SpeechRecognition` for the optional speaking check
 - **localStorage** for learning progress (per browser, no account needed)
-- **Google Fonts**: [Nunito](https://fonts.google.com/specimen/Nunito)
-- Illustrations from [Kitbitz](https://kitbitz.art/) (CC0)
+- **Google Fonts**: [Caveat](https://fonts.google.com/specimen/Caveat) (handwritten headings) and [Inter](https://fonts.google.com/specimen/Inter) (text)
+- Activity pictures: emoji plus SVG drawn in code (`assets/js/activities/art.js`)
 
 Because it is fully static, it can be deployed to any static host (Vercel, Netlify, GitHub Pages, Cloudflare Pages).
 
@@ -86,6 +97,26 @@ T: Yes, come in, Rizky. You're late. What happened?|Ya, masuk, Rizky. Kamu terla
 - Line: `Speaker: English|Indonesian`
 - Speakers: `T` = teacher (the user's role in role-play), `Class` = whole class, or any student name
 
+### Activities
+```text
+## read|read-and-match|match|Read and Match|Baca dan Pasangkan
+intro: Read the words. Match each word with its picture.|Baca kata-katanya. Pasangkan dengan gambarnya.
+tip: Then say "Point to the … in the classroom!"
+m: a red apple|🍎
+```
+- Header: `## strand|id|kind|English title|Indonesian title` (strand = `listen`, `read` or `write`)
+- `intro:` English|Indonesian instruction, `tip:` a short tip for the teacher
+- Other lines depend on the kind. The most common:
+  - `choose` → `q: spoken text|correct picture|other|other|other` (pictures are `emoji label`); `prompt: listen|read`, `labels: hide`
+  - `spell` → `w: picture|word|Indonesian`; `sentence` → `s: picture|sentence`; `order` → `s:` lines in the right order
+  - `story` / `retell` / `storywrite` → `p: picture|sentence`
+  - `cloze` → `text:` lines with `[answers]` in brackets, `extra: distractor;words`; `comic` → `p: picture|Speaker: text with [answer]`
+  - `monster` → `q: description|correct spec|other spec…` with specs like `color=green eyes=3 arms=2 legs=2 horns=1 mouth=teeth spots=yes`
+  - `lostpet` → same with pet specs: `animal=cat color=white spots=black collar=red tail=long`
+  - `color` → `text:` lines and `c: region|colour` (regions: sky, sun, cloud, kite, roof, wall, door, window, leaves, trunk, grass, flower)
+  - `template` → `f: key|Label|option;option|default` fields and `out: sentence with {key}` lines
+- See `data/activities.txt` for an example of every kind.
+
 ### Content guidelines
 - Keep vocabulary at **CEFR A1** level and the total word bank at **no more than 1,000 words**.
 - Every English item needs an Indonesian translation.
@@ -103,6 +134,7 @@ T: Yes, come in, Rizky. You're late. What happened?|Ya, masuk, Rizky. Kamu terla
 ├── vocabulary.html         # Word bank, flashcards, quiz
 ├── phrases.html            # Classroom phrases
 ├── conversation.html       # Dialogues & role-play
+├── activities.html         # Classroom activities
 ├── assets/
 │   ├── css/style.css       # Shared styles
 │   ├── js/tts.js           # Shared text-to-speech + speech-recognition helper
@@ -110,11 +142,13 @@ T: Yes, come in, Rizky. You're late. What happened?|Ya, masuk, Rizky. Kamu terla
 │   ├── js/vocabulary.js
 │   ├── js/phrases.js
 │   ├── js/conversation.js
+│   ├── js/activities/      # activities.js (list + player), kinds-*.js (activity engines), art.js (SVG pictures)
 │   └── img/favicon.svg
 ├── data/
 │   ├── vocabulary.txt
 │   ├── phrases.txt
-│   └── dialogues.txt
+│   ├── dialogues.txt
+│   └── activities.txt
 └── README.md
 ```
 
@@ -156,6 +190,8 @@ Available voices depend on the user's device and operating system.
 
 - [ ] Split the prototype into separate pages, shared CSS/JS and data files
 - [ ] Move learning progress to optional user accounts
+- [x] Classroom activities for Listen & Speak, Read & Listen, Write & Present
+- [x] Fullscreen present mode for the classroom screen
 - [ ] Printable classroom posters (e.g. *What Students Say*)
 - [ ] Downloadable PDF word lists per theme
 - [ ] Recorded audio by native speakers as an alternative to text-to-speech
@@ -167,8 +203,8 @@ Available voices depend on the user's device and operating system.
 
 ## Credits
 
-- **Illustrations:** [Kitbitz](https://kitbitz.art/), 2,000+ free hand-drawn illustrations, released under **CC0**
-- **Font:** [Nunito](https://fonts.google.com/specimen/Nunito) by Vernon Adams (SIL Open Font License)
+- **Fonts:** [Caveat](https://fonts.google.com/specimen/Caveat) by Impallari Type and [Inter](https://fonts.google.com/specimen/Inter) by Rasmus Andersson (SIL Open Font License)
+- **Pictures:** system emoji and SVG drawings generated in code
 - **Level reference:** Common European Framework of Reference for Languages (CEFR), A1
 
 ## License

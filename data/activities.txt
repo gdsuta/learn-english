@@ -1,0 +1,419 @@
+# Classroom activities: Listen & Speak, Read & Listen, Write & Present.
+# Format (see README → "Activities"):
+#   ## strand|id|kind|English title|Indonesian title
+#   intro: English instruction|Indonesian instruction
+#   tip: a short tip for the teacher
+#   then lines that depend on the kind, e.g.  q: …   s: …   p: …
+# Lines starting with # are comments.
+
+# =====================================================================
+# LISTEN AND SPEAK
+# =====================================================================
+
+## listen|listen-and-point|choose|Listen and Point|Dengar dan Tunjuk
+intro: Listen. Point to the right thing in the picture.|Dengarkan. Tunjuk benda yang benar.
+tip: Students point in the air first. Then one student comes to the screen and taps the answer.
+prompt: listen
+q: Point to the book.|📕 book|✏️ pencil|📏 ruler|🎒 bag
+q: Point to the clock.|🕒 clock|🚪 door|🪟 window|🗺️ map
+q: Point to the scissors.|✂️ scissors|🖍️ crayon|📓 notebook|📦 box
+q: Point to the window.|🪟 window|🚪 door|💡 light|🪑 chair
+q: Point to the computer.|💻 computer|📅 calendar|🗺️ map|📕 book
+q: Point to the flag.|🇮🇩 flag|🗺️ map|📅 calendar|🕒 clock
+q: Point to the chair.|🪑 chair|🎒 bag|📦 box|💡 light
+q: Point to the crayon.|🖍️ crayon|✏️ pencil|🖊️ pen|📏 ruler
+
+## listen|listen-and-choose|choose|Listen and Choose the Picture|Dengar dan Pilih Gambar
+intro: Listen to the sentence. Choose the right picture.|Dengarkan kalimatnya. Pilih gambar yang benar.
+tip: Play each sentence twice. Ask “Why?” after the answer: students say the key word.
+prompt: listen
+labels: hide
+q: The cat is sleeping.|🐱 cat|🐶 dog|🐰 rabbit|🐦 bird
+q: I like bananas.|🍌 banana|🍎 apple|🥭 mango|🍉 watermelon
+q: It's rainy today.|🌧️ rainy|☀️ sunny|☁️ cloudy|🌈 rainbow
+q: My brother plays football.|⚽ football|🏸 badminton|🏊 swimming|🚴 cycling
+q: She goes to school by bike.|🚲 bike|🚌 bus|🚗 car|🏍️ motorbike
+q: Look at the elephant!|🐘 elephant|🐯 tiger|🐒 monkey|🐄 cow
+q: I drink milk every morning.|🥛 milk|🍚 rice|🍞 bread|🥚 egg
+q: The boy is happy.|😊 happy|😢 sad|😠 angry|😴 sleepy
+
+## listen|listen-and-spell|spell|Listen and Arrange the Letters|Dengar dan Susun Huruf
+intro: Listen to the word. Put the letters in the right order.|Dengarkan katanya. Susun huruf menjadi kata.
+tip: Say each letter name aloud as students tap it: “C… A… T!”
+prompt: listen
+w: 🐱|cat|kucing
+w: 🐟|fish|ikan
+w: 📕|book|buku
+w: 🍎|apple|apel
+w: 🦆|duck|bebek
+w: 🪁|kite|layang-layang
+w: 🐸|frog|katak
+w: 🥚|egg|telur
+
+## listen|listen-and-build|sentence|Listen and Arrange the Words|Dengar dan Susun Kata
+intro: Listen to the sentence. Put the words in the right order.|Dengarkan kalimatnya. Susun kata-kata menjadi kalimat.
+tip: Ask the class to say the full sentence together after each correct answer.
+prompt: listen
+s: 📕|Open your book, please.
+s: 🐶|I have a small dog.
+s: 🏫|We go to school every day.
+s: 🍚|My mother cooks rice.
+s: 🎨|Komang likes drawing pictures.
+s: ☀️|It is sunny and hot today.
+
+## listen|listen-and-write|dictation|Listen and Write|Dengar dan Tulis
+intro: Listen. Write what you hear. Check your spelling.|Dengarkan. Tulis apa yang kamu dengar.
+tip: Students can write in their books while one student types. Use the Slow speed in Audio settings.
+s: My name is Siti.
+s: I am ten years old.
+s: The book is on the table.
+s: I like red and blue.
+s: We have English on Monday.
+s: My father is a farmer.
+
+## listen|comic-bubbles|comic|Listen and Fill the Comic Bubbles|Dengar dan Lengkapi Gelembung Komik
+intro: Listen to the comic. Choose the missing words for the speech bubbles.|Dengarkan komiknya. Pilih kata yang hilang.
+tip: After checking, two students read the comic aloud as Dewi and Budi.
+p: 👧🏽|Dewi: Good [morning], Budi!
+p: 👦🏽|Budi: Hi, Dewi! How [are] you?
+p: 👧🏽|Dewi: I'm fine, thank [you]. Where is your bag?
+p: 👦🏽|Budi: Oh no! It's at [home]!
+p: 👧🏽|Dewi: Don't worry. You can [share] my book.
+extra: night;is;school
+
+## listen|story-order|story|Listen and Order the Storyboard|Dengar dan Urutkan Gambar Cerita
+intro: Listen to Rizky's morning. Tap the pictures in the right order.|Dengarkan pagi Rizky. Urutkan gambarnya.
+tip: Students say each step with “First…, then…, after that…”.
+prompt: listen
+p: ⏰|Rizky wakes up at five o'clock.
+p: 🚿|He has a shower.
+p: 🍳|He has breakfast with his family.
+p: 🎒|He puts his books in his bag.
+p: 🚲|He goes to school by bike.
+
+## listen|listen-and-repeat|repeat|Listen and Repeat|Dengar dan Tirukan
+intro: Listen. Say it aloud. Check your speaking if your browser can.|Dengarkan. Ucapkan dengan suara keras.
+tip: Use choral repetition: whole class, then boys, then girls, then one row.
+s: How are you today?|Apa kabar hari ini?
+s: May I go to the toilet, please?|Bolehkah saya ke toilet?
+s: I don't understand.|Saya tidak mengerti.
+s: Can you say that again, please?|Bisakah diulangi?
+s: What's this in English?|Apa ini dalam bahasa Inggris?
+s: Thank you very much!|Terima kasih banyak!
+
+## listen|listen-and-do|tpr|Listen and Do (Simon Says)|Dengar dan Lakukan
+intro: Listen and do the action. In Simon Says, only move when you hear “Simon says”.|Dengarkan dan lakukan. Bergerak hanya jika ada “Simon says”.
+tip: Present this fullscreen. Students stand up and do the action. Turn on Simon Says for a game.
+c: 👃|Touch your nose.
+c: ✋|Raise your hand.
+c: 👏|Clap your hands.
+c: 🦘|Jump three times.
+c: 🧍|Stand up.
+c: 🪑|Sit down.
+c: 🙈|Close your eyes.
+c: 👂|Touch your ears.
+c: 🔄|Turn around.
+c: 🦶|Stamp your feet.
+c: 🙆|Touch your head.
+c: 😊|Smile at your friend.
+
+## listen|listen-and-draw|draw|Listen and Draw|Dengar dan Gambar
+intro: Listen to each step. Draw it on the board or in your book.|Dengarkan setiap langkah. Gambar di papan atau di buku.
+tip: Students draw in their books. One student draws on the screen. Compare the drawings at the end.
+s: Draw a big circle. It is a face.
+s: Draw two eyes and a nose.
+s: Draw a big smile.
+s: Draw two ears.
+s: Draw long hair.
+s: Draw a hat on the head.
+s: Colour the hat red.
+
+## listen|clue-cards|cluecards|Read the Clue Card and Talk|Baca Kartu Petunjuk dan Bercakap
+intro: Choose a card. You are this person! Answer the questions.|Pilih kartu. Kamu adalah orang ini! Jawab pertanyaannya.
+tip: Pairs: one student asks, the other answers with the card. Then swap cards.
+card: Putu|9|Grade 4|Bali|swimming|👦🏽
+card: Siti|10|Grade 5|Surabaya|reading|👧🏽
+card: Budi|8|Grade 3|Bandung|football|👦🏻
+card: Ayu|11|Grade 6|Makassar|dancing|👧🏻
+ask: What's your name?|My name is {name}.
+ask: How old are you?|I'm {age} years old.
+ask: What class are you in?|I'm in {class}.
+ask: Where are you from?|I'm from {from}.
+ask: What's your hobby?|I like {likes}.
+
+# =====================================================================
+# READ AND LISTEN
+# =====================================================================
+
+## read|read-and-match|match|Read and Match|Baca dan Pasangkan
+intro: Read the words. Match each word with its picture.|Baca kata-katanya. Pasangkan dengan gambarnya.
+tip: Then say “Point to the … in the classroom!” for the objects you can see.
+m: a red apple|🍎
+m: a yellow banana|🍌
+m: a big elephant|🐘
+m: a small mouse|🐭
+m: a green frog|🐸
+m: a blue bus|🚌
+m: a kite in the sky|🪁
+m: a hot sun|☀️
+
+## read|read-and-order|story|Read and Order the Pictures|Baca dan Urutkan Gambar
+intro: Read the story. Tap the pictures in the right order.|Baca ceritanya. Urutkan gambarnya.
+tip: Ask “What happened first? What happened next?”
+prompt: read
+p: 🌱|Made plants a small seed in the garden.
+p: 💧|Every day, he waters the seed.
+p: 🌿|After one week, a little plant grows.
+p: 🌻|After two months, there is a big yellow flower.
+p: 😊|Made is very happy!
+
+## read|read-and-perform|script|Read and Perform: At the Canteen|Baca dan Peragakan: Di Kantin
+intro: Read the dialogue. Choose a role and act it out.|Baca dialognya. Pilih peran dan peragakan.
+tip: Use real things as props: a plate, a bottle, some coins. Groups of three perform in front of the class.
+l: Seller: Good morning! What would you like?|Selamat pagi! Mau beli apa?
+l: Wayan: Good morning. Can I have fried rice, please?|Selamat pagi. Saya mau nasi goreng.
+l: Seller: Sure. Anything to drink?|Baik. Minumnya apa?
+l: Wayan: Orange juice, please.|Jus jeruk.
+l: Dewi: Me too! And a banana, please.|Saya juga! Dan satu pisang.
+l: Seller: Here you are. That's fifteen thousand rupiah.|Ini dia. Lima belas ribu rupiah.
+l: Wayan: Here you are. Thank you!|Ini uangnya. Terima kasih!
+l: Seller: You're welcome. Enjoy your lunch!|Sama-sama. Selamat makan!
+
+## read|read-and-fill|cloze|Read and Fill in the Blanks|Baca dan Isi yang Kosong
+intro: Read about Dewi. Choose the right word for each blank.|Baca tentang Dewi. Pilih kata yang tepat.
+tip: Read the full text aloud together after checking.
+text: Hello! My [name] is Dewi. I am ten years [old].
+text: I live in Yogyakarta with my [family].
+text: I have one brother and one [sister].
+text: My favourite [colour] is purple.
+text: I like [reading] books and playing badminton.
+text: My favourite food is [fried] rice. It is delicious!
+extra: young;school;swimming
+
+## read|read-and-choose-monster|monster|Read and Choose the Monster|Baca dan Pilih Monster
+intro: Read about the monster. Choose the right picture.|Baca tentang monsternya. Pilih gambar yang benar.
+tip: After the game, students draw their own monster and describe it to a friend.
+q: My monster is green. It has three eyes, two arms and two legs. It is happy.|color=green eyes=3 arms=2 legs=2|color=green eyes=2 arms=2 legs=2|color=blue eyes=3 arms=2 legs=2
+q: This monster is red. It has one big eye and two horns. It has four legs.|color=red eyes=1 horns=2 legs=4 arms=2|color=red eyes=1 horns=0 legs=4 arms=2|color=red eyes=2 horns=2 legs=4 arms=2
+q: My monster is purple with spots. It has four arms and a big mouth with teeth.|color=purple spots=yes arms=4 mouth=teeth eyes=2|color=purple spots=no arms=4 mouth=teeth eyes=2|color=purple spots=yes arms=2 mouth=smile eyes=2
+q: This monster is yellow. It has two eyes and no arms. It is sad.|color=yellow eyes=2 arms=0 mouth=sad|color=yellow eyes=2 arms=2 mouth=sad|color=orange eyes=2 arms=0 mouth=smile
+q: My monster is blue. It has four eyes, one horn and two arms.|color=blue eyes=4 horns=1 arms=2|color=blue eyes=4 horns=2 arms=2|color=blue eyes=3 horns=1 arms=2
+
+## read|read-and-spell|spell|Read and Arrange the Letters|Baca dan Susun Huruf
+intro: Look at the picture and the Indonesian word. Put the letters in order.|Lihat gambar dan kata Indonesianya. Susun hurufnya.
+tip: Let students spell the word aloud before tapping.
+prompt: read
+w: 🏫|school|sekolah
+w: 🪟|window|jendela
+w: 🍌|banana|pisang
+w: 🐒|monkey|monyet
+w: 🌈|rainbow|pelangi
+w: 🦷|teeth|gigi
+w: 🪑|chair|kursi
+w: 🥕|carrot|wortel
+
+## read|read-and-order-paragraph|order|Read and Order the Sentences|Baca dan Urutkan Kalimat
+intro: Put the sentences in order to make a short paragraph.|Susun kalimat menjadi paragraf pendek.
+tip: Look for clue words: First, Then, After that, Finally.
+title: My Sunday
+s: On Sunday, I wake up at six o'clock.
+s: First, I help my mother clean the house.
+s: Then, I play kites with my friends in the field.
+s: After that, we eat lunch together.
+s: Finally, I do my homework in the evening.
+
+## read|read-and-answer|answer|Read and Answer|Baca dan Jawab
+intro: Read the text. Write the answers in full sentences.|Baca teksnya. Tulis jawaban dengan kalimat lengkap.
+tip: Model one full answer on the board first. Accept short answers from younger classes.
+text: My name is Komang. I live in a village near the beach in Bali.
+text: I have a pet. It's a dog. Its name is Kopi. It is brown and white.
+text: Every afternoon, Kopi and I walk on the beach. Kopi likes running and swimming.
+text: I love my dog because he is funny and friendly.
+q: Where does Komang live?|He lives in a village near the beach in Bali.
+q: What is the dog's name?|The dog's name is Kopi.
+q: What colour is Kopi?|Kopi is brown and white.
+q: What does Kopi like?|Kopi likes running and swimming.
+q: Why does Komang love his dog?|Because he is funny and friendly.
+
+## read|read-true-false|truefalse|Read: True or False?|Baca: Benar atau Salah?
+intro: Read about the school. Is each sentence true or false?|Baca tentang sekolah. Benar atau salah?
+tip: When a sentence is false, ask students to say the correct sentence.
+text: This is SD Harapan Bangsa. It is a small school in Malang.
+text: There are six classrooms, a library and a canteen.
+text: The school starts at seven o'clock. On Monday, there is a flag ceremony.
+text: The students wear red and white uniforms. They play football in the field at break time.
+q: The school is in Malang.|true
+q: There are ten classrooms.|false
+q: There is a library.|true
+q: School starts at eight o'clock.|false
+q: There is a flag ceremony on Monday.|true
+q: Students play football at break time.|true
+
+## read|read-and-colour|color|Read and Colour|Baca dan Warnai
+intro: Read the text. Tap a colour, then tap the part of the picture.|Baca teksnya. Pilih warna, lalu ketuk bagian gambar.
+tip: Students colour the same picture in their books. Compare with a partner.
+text: This is my house. The roof is red and the wall is yellow.
+text: The door is brown and the window is blue.
+text: There is a tree next to my house. The leaves are green and the trunk is brown.
+text: The sun is orange. The kite in the sky is purple. The flower is pink.
+c: roof|red
+c: wall|yellow
+c: door|brown
+c: window|blue
+c: leaves|green
+c: trunk|brown
+c: sun|orange
+c: kite|purple
+c: flower|pink
+
+## read|read-missing-part|missing|Read and Find the Missing Part|Baca dan Temukan Bagian yang Hilang
+intro: Read about the monster. Something is missing in the picture. What is it?|Baca tentang monsternya. Ada yang hilang di gambar. Apa itu?
+tip: Students can draw the missing part on the board.
+q: My monster is orange. It has two eyes, two arms and two legs.|color=orange eyes=2 arms=2 legs=2|arms=0|two arms|two eyes|two legs|a horn
+q: This monster is blue. It has three eyes and two horns.|color=blue eyes=3 horns=2 arms=2 legs=2|horns=0|two horns|three eyes|four legs|spots
+q: My monster is pink. It has one eye, four legs and spots.|color=pink eyes=1 legs=4 spots=yes arms=2|legs=0|four legs|one eye|two arms|a big mouth
+q: This monster is green. It has two eyes, two arms and a big mouth with teeth.|color=green eyes=2 arms=2 legs=2 mouth=teeth|eyes=0|two eyes|two arms|teeth|horns
+
+## read|read-and-retell|retell|Read and Retell: The Thirsty Crow|Baca dan Ceritakan Kembali: Gagak yang Haus
+intro: Read the story. Then tell the story again in your own words.|Baca ceritanya. Lalu ceritakan kembali dengan kata-katamu sendiri.
+tip: Present the pictures only (hide the text) and ask students to retell using the sentence starters.
+p: ☀️|It is a hot day. A crow is very thirsty.
+p: 🏺|The crow finds a pot. There is a little water in it.
+p: 😟|The crow cannot drink. Its beak is too short.
+p: 🪨|The crow has an idea. It puts small stones in the pot.
+p: 💧|The water goes up, up, up!
+p: 😊|The crow drinks the water. It is happy!
+starter: One day, …
+starter: First, the crow …
+starter: Then, …
+starter: Finally, …
+q: Why is the crow thirsty?
+q: What does the crow put in the pot?
+q: Is the crow clever? Why?
+
+## read|lost-pet|lostpet|Which Pet Is Lost?|Hewan Peliharaan Mana yang Hilang?
+intro: Read the “Lost Pet” poster. Find the right pet.|Baca poster “Hewan Hilang”. Temukan hewan yang benar.
+tip: Students make their own “Lost Pet” poster with Describe Your Pet in Write and Present.
+q: LOST CAT! My cat is white with black spots. It has a long tail and a red collar. Its name is Mochi.|animal=cat color=white spots=black tail=long collar=red|animal=cat color=white spots=black tail=short collar=red|animal=cat color=white spots=none tail=long collar=red|animal=cat color=black spots=none tail=long collar=blue
+q: LOST DOG! My dog is brown. It has a short tail and a blue collar. Its name is Coklat.|animal=dog color=brown tail=short collar=blue|animal=dog color=brown tail=long collar=blue|animal=dog color=brown tail=short collar=none|animal=dog color=black tail=short collar=blue
+q: LOST RABBIT! My rabbit is grey with white spots. It has a green collar.|animal=rabbit color=grey spots=white collar=green tail=short|animal=rabbit color=grey spots=none collar=green tail=short|animal=rabbit color=white spots=grey collar=green tail=short|animal=rabbit color=grey spots=white collar=yellow tail=short
+q: LOST BIRD! My bird is yellow. It has a blue collar. Its name is Kiki.|animal=bird color=yellow collar=blue|animal=bird color=yellow collar=none|animal=bird color=green collar=blue|animal=bird color=orange collar=blue
+
+# =====================================================================
+# WRITE AND PRESENT
+# =====================================================================
+
+## write|write-the-story|storywrite|Look at the Comic and Write the Story|Lihat Komik dan Tulis Ceritanya
+intro: Look at the pictures. Write one sentence for each picture. Then present your story.|Lihat gambarnya. Tulis satu kalimat untuk setiap gambar. Lalu presentasikan.
+tip: Write the word hints on the board. Groups write one story and read it to the class.
+p: 🏖️|beach, Sunday, family
+p: 🏰|build, sand castle
+p: 🌊|big wave, break
+p: 😢|sad, cry
+p: 🤝|help, build again, happy
+starter: On Sunday, …
+starter: We …
+starter: Suddenly, …
+starter: At the end, …
+
+## write|family-tree|familytree|Write Your Family Tree|Tulis Pohon Keluargamu
+intro: Write the names of your family. Then present your family tree.|Tulis nama anggota keluargamu. Lalu presentasikan.
+tip: Students can draw the tree in their books first, then present with “This is my …”.
+
+## write|greeting-card|card|Write a Greeting Card|Tulis Kartu Ucapan
+intro: Choose a card. Write your message. Then read it to your friend.|Pilih kartu. Tulis pesanmu. Lalu bacakan untuk temanmu.
+tip: Copy the card onto paper for a real friend, teacher or family member.
+occasion: Birthday|🎂|Happy birthday!;I hope you have a wonderful day.;You are a great friend.
+occasion: Eid al-Fitr|🌙|Happy Eid al-Fitr!;Mohon maaf lahir dan batin.;Have a happy holiday with your family.
+occasion: Teacher's Day|🍎|Happy Teacher's Day!;Thank you for teaching us.;You are the best teacher.
+occasion: Get Well Soon|💐|Get well soon!;I hope you feel better.;We miss you at school.
+occasion: Thank You|💌|Thank you very much!;You are very kind.;I am very happy.
+occasion: New Year|🎆|Happy New Year!;I hope this year is great for you.;Let's study hard together.
+
+## write|hobby-survey|survey|Hobby Survey: Make a Table and Present|Survei Hobi: Buat Tabel dan Presentasikan
+intro: Ask your friends “What's your hobby?”. Tick the table. Then present the results.|Tanyakan hobi temanmu. Centang tabelnya. Lalu presentasikan hasilnya.
+tip: Each group asks five friends, then one student presents the chart with the sentences.
+hobby: ⚽|football
+hobby: 🏸|badminton
+hobby: 📖|reading
+hobby: 🎨|drawing
+hobby: 🎤|singing
+hobby: 🏊|swimming
+names: Putu;Dewi;Budi;Siti;Rizky
+
+## write|describe-pet|template|Describe Your Pet|Deskripsikan Hewan Peliharaanmu
+intro: Make your pet. Fill in the details. Then present it to the class.|Buat hewanmu. Isi detailnya. Lalu presentasikan.
+tip: Students who have no pet can describe a dream pet.
+pic: pet
+f: animal|Animal|cat;dog;rabbit;bird;fish|cat
+f: color|Colour|white;black;brown;orange;grey;yellow|orange
+f: spots|Spots|none;black;brown;white|none
+f: collar|Collar|none;red;blue;green;yellow|red
+f: name|Name||Mochi
+f: character|It is very…|friendly;funny;lazy;clever;naughty;cute|funny
+f: likes|It likes…|sleeping;playing;eating fish;running;swimming;singing|sleeping
+out: This is my pet. It's a {animal}.
+out: Its name is {name}.
+out: It is {color}.
+out: It is very {character}.
+out: It likes {likes}.
+out: I love my {animal}!
+
+## write|about-me|template|All About Me Poster|Poster Tentang Diriku
+intro: Fill in your details. Present your poster: “Hello, my name is…”.|Isi data dirimu. Presentasikan postermu.
+tip: A good first-week activity. Put the posters on the classroom wall.
+f: name|My name||Putu
+f: age|Age|8;9;10;11;12|10
+f: city|I live in||Denpasar
+f: food|Favourite food|fried rice;noodles;satay;fried chicken;meatballs;fruit|fried rice
+f: colour|Favourite colour|red;blue;green;yellow;purple;pink;black|blue
+f: hobby|Hobby|football;badminton;reading;drawing;singing;dancing;swimming|drawing
+f: dream|When I grow up, I want to be…|a teacher;a doctor;a pilot;a farmer;a police officer;an artist;a footballer|a teacher
+out: Hello! My name is {name}.
+out: I am {age} years old. I live in {city}.
+out: My favourite food is {food}.
+out: My favourite colour is {colour}.
+out: I like {hobby}.
+out: When I grow up, I want to be {dream}.
+
+## write|label-body|label|Draw and Label: My Body|Gambar dan Beri Label: Tubuhku
+intro: Choose the word for each number. Then draw and label your own picture.|Pilih kata untuk setiap nomor. Lalu gambar dan beri label.
+tip: Play “Simon Says” with the body words afterwards.
+diagram: body
+parts: hair;eye;ear;nose;mouth;neck;arm;hand;tummy;knee;foot
+
+## write|label-plant|label|Draw and Label: A Plant|Gambar dan Beri Label: Tumbuhan
+intro: Choose the word for each number.|Pilih kata untuk setiap nomor.
+tip: Bring a real plant to class and point to each part.
+diagram: plant
+parts: flower;petal;leaf;stem;root;soil
+
+## write|label-fish|label|Draw and Label: A Fish|Gambar dan Beri Label: Ikan
+intro: Choose the word for each number.|Pilih kata untuk setiap nomor.
+tip: Ask “How many fins does a fish have?”
+diagram: fish
+parts: head;eye;mouth;gill;fin;scales;tail
+
+## write|write-a-dialogue|dialoguewrite|Write a Dialogue and Perform|Tulis Dialog dan Peragakan
+intro: Choose a topic. Write a short dialogue with a friend. Then perform it.|Pilih topik. Tulis dialog pendek. Lalu peragakan.
+tip: Pairs write six lines. The computer reads it first, then students perform without the screen.
+topic: Meeting a new friend|Hi! What's your name?;My name is … What's your name?;Nice to meet you!;How old are you?;I'm … years old.;Let's play together!
+topic: At the library|Excuse me, can I borrow this book?;Yes, of course. What's your name?;My name is …;Please bring it back on Friday.;OK. Thank you!;You're welcome.
+topic: My favourite food|What's your favourite food?;I like … What about you?;I like …;Is it sweet?;Yes, it's sweet and delicious!;Let's eat together at break time!
+topic: Weekend plans|What do you do on Sunday?;I usually … And you?;I …;That sounds fun!;Do you want to come with me?;Yes, please!
+
+## write|show-and-tell|template|Show and Tell|Tunjukkan dan Ceritakan
+intro: Bring something special to class. Write about it. Then show and tell!|Bawa benda kesayanganmu. Tulis tentangnya. Lalu tunjukkan dan ceritakan!
+tip: Give each student one minute. Classmates ask one question after each talk.
+f: thing|What is it?||a toy car
+f: colour|Colour|red;blue;green;yellow;black;white;brown|red
+f: from|It is from…|my father;my mother;my grandmother;my friend;a shop|my father
+f: why|I like it because it is…|beautiful;fun;special;small;old;new|special
+f: when|I use it…|every day;on Sunday;at school;at home|every day
+out: Good morning, everyone!
+out: This is {thing}.
+out: It is {colour}.
+out: It is from {from}.
+out: I like it because it is {why}.
+out: I use it {when}.
+out: Thank you!

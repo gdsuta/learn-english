@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Vocabulary · Classroom English</title>
   <meta name="description" content="739 CEFR A1 words in 20 themes with Indonesian meanings, audio, flashcards and a quiz.">
-  <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#121a16" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fffcf4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151b2b" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/tts.js" defer></script>
   <script src="assets/js/app.js" defer></script>
@@ -21,16 +21,14 @@
 
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="index.html">
-        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="var(--green)"/><path d="M10 25 16 9l6 16M12.3 19.5h7.4" fill="none" stroke="var(--on-green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="26.5" cy="9.5" r="3" fill="var(--marigold)"/></svg>
-        <span class="brand-text"><strong>Classroom English</strong><span>untuk Guru SD · Kelas 3–6</span></span>
-      </a>
+      <a class="brand" href="index.html" aria-label="Classroom English, home">classroom<b>English</b><small>untuk Guru SD</small></a>
       <nav class="main-nav" aria-label="Main">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="vocabulary.html" aria-current="page">Vocabulary</a></li>
-          <li><a href="phrases.html">Classroom Phrases</a></li>
-          <li><a href="conversation.html">Conversation Practice</a></li>
+          <li><a href="phrases.html">Phrases</a></li>
+          <li><a href="conversation.html">Conversation</a></li>
+          <li><a href="activities.html">Activities</a></li>
         </ul>
       </nav>
       <button class="audio-btn" type="button" popovertarget="audio-panel">
@@ -65,15 +63,18 @@
         <div class="head-row">
           <div>
             <p class="eyebrow">Kosakata A1 untuk guru kelas 3–6 SD</p>
-            <h1>Classroom Word Bank</h1>
+            <h1>Classroom <span class="hl">Word Bank</span></h1>
             <p>739 useful words in 20 themes. Tap a word to hear it, tick it when you know it. Your progress is saved in this browser.</p>
           </div>
-          <fieldset class="segmented">
-            <legend class="visually-hidden">Practice mode</legend>
-            <label><input type="radio" name="mode" value="list" checked><span><svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>Word list</span></label>
-            <label><input type="radio" name="mode" value="cards"><span><svg class="icon" aria-hidden="true"><use href="#i-cards"/></svg>Flashcards</span></label>
-            <label><input type="radio" name="mode" value="quiz"><span><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>Quiz</span></label>
-          </fieldset>
+          <div class="page-actions">
+            <fieldset class="segmented">
+              <legend class="visually-hidden">Practice mode</legend>
+              <label><input type="radio" name="mode" value="list" checked><span><svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>Word list</span></label>
+              <label><input type="radio" name="mode" value="cards"><span><svg class="icon" aria-hidden="true"><use href="#i-cards"/></svg>Flashcards</span></label>
+              <label><input type="radio" name="mode" value="quiz"><span><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>Quiz</span></label>
+            </fieldset>
+            <button type="button" class="btn btn-secondary" data-present="#panel"><svg class="icon" aria-hidden="true"><use href="#i-maximize"/></svg><span>Present</span></button>
+          </div>
         </div>
       </header>
       <div class="workspace">
@@ -81,7 +82,8 @@
           <p class="aside-label" id="topics-label">Themes</p>
           <ul class="topic-list" id="topics" aria-label="Themes"></ul>
         </aside>
-        <section aria-label="Words">
+        <section id="panel" class="presentable" aria-label="Words">
+          <button type="button" class="btn btn-secondary present-exit" data-present="#panel"><svg class="icon" aria-hidden="true"><use href="#i-minimize"/></svg><span>Exit</span></button>
           <div class="toolbar">
             <label class="search grow">
               <span class="visually-hidden">Search English or Indonesian</span>
@@ -99,7 +101,7 @@
   <footer class="site-footer">
     <div class="container">
       <p>Audio uses your device's built-in English voice — works best in Google Chrome. Choose a British or American accent and a slower speed under <strong>Audio</strong> at the top of every page.</p>
-      <p>Illustrations: <a href="https://kitbitz.art/">Kitbitz</a> (CC0).</p>
+      <p>Free for teachers · Gratis untuk guru</p>
     </div>
   </footer>
 
@@ -109,6 +111,7 @@
       <li><a href="vocabulary.html" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>Words</a></li>
       <li><a href="phrases.html"><svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg>Phrases</a></li>
       <li><a href="conversation.html"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Talk</a></li>
+      <li><a href="activities.html"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg>Activities</a></li>
     </ul>
   </nav>
 </body>

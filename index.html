@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Classroom English for Indonesian Primary Teachers</title>
-  <meta name="description" content="Free Classroom English practice for Indonesian SD teachers (Grades 3–6): 739 A1 words, 143 classroom phrases and 12 role-play conversations, all with audio.">
-  <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#121a16" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Free Classroom English practice for Indonesian SD teachers (Grades 3–6): 739 A1 words, 143 classroom phrases, 12 role-plays and 35 classroom activities, all with audio and a fullscreen present mode.">
+  <meta name="theme-color" content="#fffcf4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151b2b" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/tts.js" defer></script>
   <script src="assets/js/app.js" defer></script>
@@ -20,16 +20,14 @@
 
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="index.html">
-        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="var(--green)"/><path d="M10 25 16 9l6 16M12.3 19.5h7.4" fill="none" stroke="var(--on-green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="26.5" cy="9.5" r="3" fill="var(--marigold)"/></svg>
-        <span class="brand-text"><strong>Classroom English</strong><span>untuk Guru SD · Kelas 3–6</span></span>
-      </a>
+      <a class="brand" href="index.html" aria-label="Classroom English, home">classroom<b>English</b><small>untuk Guru SD</small></a>
       <nav class="main-nav" aria-label="Main">
         <ul>
           <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="vocabulary.html">Vocabulary</a></li>
-          <li><a href="phrases.html">Classroom Phrases</a></li>
-          <li><a href="conversation.html">Conversation Practice</a></li>
+          <li><a href="phrases.html">Phrases</a></li>
+          <li><a href="conversation.html">Conversation</a></li>
+          <li><a href="activities.html">Activities</a></li>
         </ul>
       </nav>
       <button class="audio-btn" type="button" popovertarget="audio-panel">
@@ -61,46 +59,48 @@
   <main id="main">
     <!-- Hero -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">CEFR A1 · Kelas 3–6 SD</p>
-          <h1>Classroom English for <mark>Indonesian Primary Teachers</mark></h1>
-          <p class="lead">Learn the words, phrases and conversations you need to teach your English lessons in English — step by step, with audio.</p>
-          <p class="lead-id id">Belajar kosakata, ungkapan, dan percakapan kelas agar Bapak/Ibu guru percaya diri mengajar dalam bahasa Inggris.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#plan">Start the 4-week plan <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
-            <a class="btn btn-secondary" href="phrases.html">Open classroom phrases</a>
-          </div>
-          <dl class="stats">
-            <div><dt>A1 words</dt><dd>739</dd></div>
-            <div><dt>classroom phrases</dt><dd>143</dd></div>
-            <div><dt>role-play conversations</dt><dd>12</dd></div>
-          </dl>
-        </div>
+      <div class="container">
+        <p class="eyebrow">CEFR A1 · Kelas 3–6 SD</p>
+        <h1>Classroom English for <span class="hl">Indonesian Primary Teachers.</span></h1>
+        <p class="lead">Learn the words, phrases and conversations you need to teach your English lessons in English — step by step, with audio.</p>
+        <p class="lead-id id">Belajar kosakata, ungkapan, dan percakapan kelas agar Bapak/Ibu guru percaya diri mengajar dalam bahasa Inggris.</p>
 
-        <aside class="try" aria-labelledby="try-title">
-          <img class="try-illus" src="https://assets.kitbitz.art/kits/interior-kit/BookGroup6-Paper-H-M-MultiColor.svg" width="92" height="92" alt="" loading="lazy" decoding="async">
-          <p class="eyebrow">Try it now</p>
-          <h2 id="try-title">Your first three sentences</h2>
+        <nav class="hero-tabs" aria-label="Start here">
+          <a class="hero-tab primary" href="vocabulary.html"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg><span>Vocabulary<small>739 A1 words</small></span></a>
+          <a class="hero-tab" href="phrases.html"><svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg><span>Phrases<small>143 classroom phrases</small></span></a>
+          <a class="hero-tab" href="conversation.html"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg><span>Conversation<small>12 role-plays</small></span></a>
+          <a class="hero-tab" href="activities.html"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg><span>Activities<small>35 for your class</small></span></a>
+        </nav>
+
+        <section class="try" aria-labelledby="try-title">
+          <h2 id="try-title">or try one of these</h2>
           <ul class="try-list">
             <li>
+              <span class="try-label hand">Opening</span>
+              <div class="grow"><div class="en">Good morning, class!</div><div class="id">Selamat pagi, anak-anak!</div></div>
               <button class="icon-btn" type="button" data-say="Good morning, class!" aria-label="Listen: Good morning, class!"><svg class="icon" aria-hidden="true"><use href="#i-volume"/></svg></button>
-              <div><div class="en">Good morning, class!</div><div class="id">Selamat pagi, anak-anak!</div></div>
             </li>
             <li>
+              <span class="try-label hand">Instruction</span>
+              <div class="grow"><div class="en">Please sit down.</div><div class="id">Silakan duduk.</div></div>
               <button class="icon-btn" type="button" data-say="Please sit down." aria-label="Listen: Please sit down."><svg class="icon" aria-hidden="true"><use href="#i-volume"/></svg></button>
-              <div><div class="en">Please sit down.</div><div class="id">Silakan duduk.</div></div>
             </li>
             <li>
+              <span class="try-label hand">Start</span>
+              <div class="grow"><div class="en">Let's start our lesson.</div><div class="id">Mari kita mulai pelajaran kita.</div></div>
               <button class="icon-btn" type="button" data-say="Let's start our lesson." aria-label="Listen: Let's start our lesson."><svg class="icon" aria-hidden="true"><use href="#i-volume"/></svg></button>
-              <div><div class="en">Let's start our lesson.</div><div class="id">Mari kita mulai pelajaran kita.</div></div>
+            </li>
+            <li>
+              <span class="try-label hand">Praise</span>
+              <div class="grow"><div class="en">Good job! Well done!</div><div class="id">Kerja bagus! Bagus sekali!</div></div>
+              <button class="icon-btn" type="button" data-say="Good job! Well done!" aria-label="Listen: Good job! Well done!"><svg class="icon" aria-hidden="true"><use href="#i-volume"/></svg></button>
             </li>
           </ul>
           <div class="try-foot">
             <span>Listen, then say it aloud.</span>
-            <a href="phrases.html#start">All opening phrases <span aria-hidden="true">→</span></a>
+            <a href="phrases.html#start">All opening phrases →</a>
           </div>
-        </aside>
+        </section>
       </div>
     </section>
 
@@ -110,37 +110,61 @@
         <div class="band-head">
           <p class="eyebrow">Cara menggunakan situs ini</p>
           <h2 id="how-title">How to use this site</h2>
-          <p>Open the pages from the menu at the top. Every word and sentence has a listen button — listen and repeat.</p>
+          <p>Open the pages from the menu at the top. Every word and sentence has a listen button — listen and repeat. Press <strong>Present</strong> to show any lesson fullscreen on the classroom screen.</p>
         </div>
         <ol class="steps">
           <li class="step">
-            <span class="step-num" aria-hidden="true">1</span>
-            <h3>Vocabulary <small>Kosakata</small></h3>
+            <span class="step-label">1 · Vocabulary</span>
             <div>
-              <p>739 everyday A1 words in 20 themes: classroom objects, actions, numbers, time, animals, food and more. Each word has the Indonesian meaning.</p>
-              <p class="how">Use Flashcards and the Quiz to remember them.</p>
+              <h3>739 everyday A1 words <small>Kosakata</small></h3>
+              <p>20 themes: classroom objects, actions, numbers, time, animals, food and more. Each word has the Indonesian meaning. Use Flashcards and the Quiz to remember them.</p>
             </div>
             <a class="btn btn-secondary" href="vocabulary.html">Open Vocabulary</a>
           </li>
           <li class="step">
-            <span class="step-num" aria-hidden="true">2</span>
-            <h3>Classroom Phrases <small>Ungkapan Kelas</small></h3>
+            <span class="step-label">2 · Phrases</span>
             <div>
-              <p>143 sentences for every part of your lesson: opening, taking the register, giving instructions, praising, managing the class, games and closing.</p>
-              <p class="how">Use <strong>Test me</strong> to hide the English and check yourself.</p>
+              <h3>143 sentences for every part of your lesson <small>Ungkapan Kelas</small></h3>
+              <p>Opening, taking the register, giving instructions, praising, managing the class, games and closing. Use <strong>Test me</strong> to hide the English and check yourself.</p>
             </div>
             <a class="btn btn-secondary" href="phrases.html">Open Phrases</a>
           </li>
           <li class="step">
-            <span class="step-num" aria-hidden="true">3</span>
-            <h3>Conversation Practice <small>Latihan Percakapan</small></h3>
+            <span class="step-label">3 · Conversation</span>
             <div>
-              <p>12 real classroom situations — a late student, a sick student, checking homework, pair work, Simon Says.</p>
-              <p class="how">In <strong>Role-play</strong> mode the computer plays the students and you are the teacher.</p>
+              <h3>12 real classroom situations <small>Latihan Percakapan</small></h3>
+              <p>A late student, a sick student, checking homework, pair work, Simon Says. In <strong>Role-play</strong> mode the computer plays the students and you are the teacher.</p>
             </div>
-            <a class="btn btn-secondary" href="conversation.html">Open Conversations</a>
+            <a class="btn btn-secondary" href="conversation.html">Open Conversation</a>
+          </li>
+          <li class="step">
+            <span class="step-label">4 · Activities</span>
+            <div>
+              <h3>35 ready-to-use class activities <small>Aktivitas Kelas</small></h3>
+              <p>Listen &amp; Speak, Read &amp; Listen, Write &amp; Present: games, comics, monsters, colouring, story writing, surveys and posters — made for the classroom screen.</p>
+            </div>
+            <a class="btn btn-primary" href="activities.html">Open Activities</a>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <!-- Activities -->
+    <section class="band" aria-labelledby="act-title">
+      <div class="container split">
+        <div class="band-head">
+          <p class="eyebrow">Untuk kelas Bapak/Ibu</p>
+          <h2 id="act-title">From <span class="hl">listening</span> to <span class="hl">presenting</span>.</h2>
+          <p>Every activity runs on one screen in front of the class. Students come up, tap, drag, draw and speak — you guide.</p>
+          <ul class="checks">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Listen &amp; Speak:</strong> point, choose pictures, spell, write what you hear, comics, Simon Says, listen and draw.</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Read &amp; Listen:</strong> match, order, true or false, choose the monster, find the lost pet, read and colour, retell a story.</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Write &amp; Present:</strong> write a story, family tree, greeting card, hobby survey, posters, label the body, write a dialogue.</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span><strong>Present fullscreen</strong> on a projector or TV — press <kbd>F</kbd> or the Present button.</span></li>
+          </ul>
+          <p class="row" style="margin-top: 24px"><a class="btn btn-primary" href="activities.html">See all activities</a><a class="btn btn-ghost" href="activities.html#read-and-choose-monster">Try: Choose the monster →</a></p>
+        </div>
+        <figure class="art-frame home-art" aria-hidden="true" data-home-art></figure>
       </div>
     </section>
 
@@ -160,6 +184,7 @@
               <div><dt>Words</dt><dd><a href="vocabulary.html#greet">Greetings</a>, <a href="vocabulary.html#objects">Classroom Objects</a>, <a href="vocabulary.html#actions">Classroom Actions</a></dd></div>
               <div><dt>Phrases</dt><dd><a href="phrases.html#start">Starting the Lesson</a>, <a href="phrases.html#instructions">Giving Instructions</a></dd></div>
               <div><dt>Role-play</dt><dd><a href="conversation.html#good-morning-class">Good Morning, Class!</a> and <a href="conversation.html#open-your-books">Open Your Books</a></dd></div>
+              <div><dt>Activity</dt><dd><a href="activities.html#listen-and-point">Listen and Point</a>, <a href="activities.html#listen-and-do">Simon Says</a></dd></div>
             </dl>
             <p class="in-class"><svg class="icon" aria-hidden="true"><use href="#i-school"/></svg><span>In class: open every lesson in English</span></p>
           </li>
@@ -170,6 +195,7 @@
               <div><dt>Words</dt><dd><a href="vocabulary.html#school">School Places &amp; People</a>, <a href="vocabulary.html#numbers">Numbers</a>, <a href="vocabulary.html#time">Days &amp; Time</a></dd></div>
               <div><dt>Phrases</dt><dd><a href="phrases.html#register">Taking the Register</a>, <a href="phrases.html#ending">Ending the Lesson</a></dd></div>
               <div><dt>Role-play</dt><dd><a href="conversation.html#who-is-absent">Who Is Absent?</a>, <a href="conversation.html#sorry-im-late">Sorry, I'm Late</a>, <a href="conversation.html#see-you-tomorrow">See You Tomorrow!</a></dd></div>
+              <div><dt>Activity</dt><dd><a href="activities.html#clue-cards">Clue Cards</a>, <a href="activities.html#about-me">All About Me</a></dd></div>
             </dl>
             <p class="in-class"><svg class="icon" aria-hidden="true"><use href="#i-school"/></svg><span>In class: register and goodbye in English</span></p>
           </li>
@@ -180,6 +206,7 @@
               <div><dt>Words</dt><dd><a href="vocabulary.html#colours">Colours</a>, <a href="vocabulary.html#feelings">Feelings</a>, <a href="vocabulary.html#body">Body</a>, <a href="vocabulary.html#family">Family</a></dd></div>
               <div><dt>Phrases</dt><dd><a href="phrases.html#praise">Praise</a>, <a href="phrases.html#groups">Pair &amp; Group Work</a>, <a href="phrases.html#games">Games</a></dd></div>
               <div><dt>Role-play</dt><dd><a href="conversation.html#pair-work">Pair Work</a>, <a href="conversation.html#lets-play-simon-says">Simon Says</a>, <a href="conversation.html#reading-aloud">Reading Aloud</a></dd></div>
+              <div><dt>Activity</dt><dd><a href="activities.html#read-and-colour">Read and Colour</a>, <a href="activities.html#family-tree">Family Tree</a></dd></div>
             </dl>
             <p class="in-class"><svg class="icon" aria-hidden="true"><use href="#i-school"/></svg><span>In class: run one game fully in English</span></p>
           </li>
@@ -190,6 +217,7 @@
               <div><dt>Words</dt><dd><a href="vocabulary.html#food">Food</a>, <a href="vocabulary.html#animals">Animals</a>, <a href="vocabulary.html#weather">Weather</a>, <a href="vocabulary.html#hobbies">Hobbies</a>, <a href="vocabulary.html#home">Home</a></dd></div>
               <div><dt>Phrases</dt><dd><a href="phrases.html#behaviour">Managing the Class</a>, <a href="phrases.html#help">Helping Students</a></dd></div>
               <div><dt>Role-play</dt><dd><a href="conversation.html#i-dont-feel-well">I Don't Feel Well</a>, <a href="conversation.html#how-was-your-weekend">How Was Your Weekend?</a></dd></div>
+              <div><dt>Activity</dt><dd><a href="activities.html#hobby-survey">Hobby Survey</a>, <a href="activities.html#describe-pet">Describe Your Pet</a></dd></div>
             </dl>
             <p class="in-class"><svg class="icon" aria-hidden="true"><use href="#i-school"/></svg><span>In class: small talk with students every Monday</span></p>
           </li>
@@ -220,7 +248,7 @@
   <footer class="site-footer">
     <div class="container">
       <p>Audio uses your device's built-in English voice — works best in Google Chrome. Choose a British or American accent and a slower speed under <strong>Audio</strong> at the top of every page.</p>
-      <p>Illustrations: <a href="https://kitbitz.art/">Kitbitz</a> (CC0).</p>
+      <p>Free for teachers · Gratis untuk guru</p>
     </div>
   </footer>
 
@@ -230,7 +258,9 @@
       <li><a href="vocabulary.html"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>Words</a></li>
       <li><a href="phrases.html"><svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg>Phrases</a></li>
       <li><a href="conversation.html"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Talk</a></li>
+      <li><a href="activities.html"><svg class="icon" aria-hidden="true"><use href="#i-puzzle"/></svg>Activities</a></li>
     </ul>
   </nav>
+  <script src="assets/js/activities/art.js" defer></script>
 </body>
 </html>
