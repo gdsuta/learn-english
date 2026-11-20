@@ -1,0 +1,154 @@
+## start|🌅|Starting the Lesson|Membuka Pelajaran|Use the same opening every day. After 2 weeks, students will answer automatically — and you will feel confident too.
+Good morning, class!|Selamat pagi, anak-anak!
+Good morning, everyone. How are you today?|Selamat pagi, semuanya. Apa kabar hari ini?
+I'm fine, thank you. And you?|Saya baik, terima kasih. Kalau kamu?
+Let's pray before we start.|Mari berdoa sebelum kita mulai.
+Please sit down.|Silakan duduk.
+Is everybody ready?|Apakah semua sudah siap?
+Let's start our lesson.|Mari kita mulai pelajaran kita.
+Today we are going to learn about animals.|Hari ini kita akan belajar tentang hewan.
+What day is it today?|Hari apa sekarang?
+What's the date today?|Tanggal berapa hari ini?
+What's the weather like today?|Bagaimana cuaca hari ini?
+Do you remember our last lesson?|Apakah kalian ingat pelajaran kita sebelumnya?
+## register|📋|Taking the Register|Mengabsen|Teach students to answer “Present!” or “Here!”. It is a 1-minute daily speaking practice.
+Let me check the attendance.|Saya periksa kehadiran dulu.
+When I call your name, say "Present!"|Kalau nama kalian dipanggil, jawab "Hadir!"
+Who is absent today?|Siapa yang tidak hadir hari ini?
+Where is Budi today?|Budi di mana hari ini?
+Is he sick?|Apakah dia sakit?
+Everybody is here. Great!|Semua hadir. Hebat!
+You're late. What happened?|Kamu terlambat. Ada apa?
+Please don't be late again.|Tolong jangan terlambat lagi.
+## instructions|🗣️|Giving Instructions|Memberi Instruksi|Say the instruction, then show it with a gesture (point, open your hands like a book). Gestures help students understand without translation.
+Open your books, please.|Silakan buka buku kalian.
+Turn to page twenty.|Buka halaman dua puluh.
+Close your books.|Tutup buku kalian.
+Look at the board.|Lihat ke papan tulis.
+Look at the picture.|Lihat gambarnya.
+Listen carefully.|Dengarkan baik-baik.
+Listen and repeat.|Dengarkan dan ulangi.
+Repeat after me.|Ulangi setelah saya.
+Read the text aloud.|Bacakan teksnya dengan keras.
+Read it silently.|Baca dalam hati.
+Write your name at the top.|Tulis nama kalian di bagian atas.
+Copy this into your notebook.|Salin ini ke buku tulis kalian.
+Take out your pencil.|Keluarkan pensil kalian.
+Put your things away.|Simpan barang-barang kalian.
+Stand up, please.|Silakan berdiri.
+Come to the front, please.|Silakan maju ke depan.
+Go back to your seat.|Kembali ke tempat dudukmu.
+Raise your hand if you know the answer.|Angkat tangan kalau kamu tahu jawabannya.
+Circle the correct answer.|Lingkari jawaban yang benar.
+Match the words with the pictures.|Jodohkan kata dengan gambarnya.
+Fill in the blanks.|Isi titik-titiknya.
+Colour the picture.|Warnai gambarnya.
+You have five minutes.|Waktu kalian lima menit.
+## questions|🤔|Asking & Checking Understanding|Bertanya & Memeriksa Pemahaman|Do not only ask “Do you understand?”. Ask a check question: “What page?”, “How many minutes?”.
+Do you understand?|Apakah kalian mengerti?
+Any questions?|Ada pertanyaan?
+Is it clear?|Sudah jelas?
+What does "happy" mean?|Apa arti "happy"?
+How do you say "buku" in English?|Bagaimana mengatakan "buku" dalam bahasa Inggris?
+How do you spell it?|Bagaimana mengejanya?
+Who can answer this question?|Siapa yang bisa menjawab pertanyaan ini?
+Can you tell me the answer?|Bisakah kamu memberi tahu saya jawabannya?
+What is this?|Ini apa?
+What colour is it?|Warnanya apa?
+How many cats can you see?|Berapa kucing yang bisa kamu lihat?
+Is it true or false?|Benar atau salah?
+Are you finished?|Sudah selesai?
+Say it again, please.|Tolong ucapkan lagi.
+Louder, please.|Lebih keras, ya.
+## praise|🌟|Praise & Encouragement|Pujian & Semangat|Praise the effort, not only the answer. Short praise in English is the easiest classroom English to start with.
+Good job!|Kerja bagus!
+Well done!|Bagus sekali!
+Excellent!|Luar biasa!
+Very good!|Sangat bagus!
+That's right!|Betul!
+Great work, everyone!|Kerja hebat, semuanya!
+Nice try!|Usaha yang bagus!
+Almost! Try again.|Hampir! Coba lagi.
+Don't worry. It's okay.|Jangan khawatir. Tidak apa-apa.
+You can do it!|Kamu pasti bisa!
+I'm proud of you.|Saya bangga padamu.
+Give him a big clap!|Beri dia tepuk tangan yang meriah!
+Your writing is very neat.|Tulisanmu sangat rapi.
+## behaviour|🤫|Managing the Class|Mengelola Kelas|Calm and short is best: “Eyes on me, please.” Wait. Smile. Say “Thank you.”
+Quiet, please.|Tolong tenang.
+Be quiet, please.|Harap tenang.
+Listen to me, please.|Tolong dengarkan saya.
+Eyes on me, please.|Lihat ke saya, ya.
+Sit properly, please.|Duduk yang rapi, ya.
+Stop talking, please.|Tolong berhenti mengobrol.
+Don't run in the classroom.|Jangan berlari di dalam kelas.
+Please be careful.|Tolong hati-hati.
+Wait for your turn.|Tunggu giliranmu.
+One at a time, please.|Satu per satu, ya.
+Hands up, please. Don't shout.|Angkat tangan, ya. Jangan berteriak.
+Put your phone away, please.|Tolong simpan HP-mu.
+Let's count to three. One, two, three!|Ayo hitung sampai tiga. Satu, dua, tiga!
+## groups|👥|Pair & Group Work|Kerja Berpasangan & Kelompok|Model the activity first with one student in front of the class, then say “Now you!”.
+Work in pairs.|Bekerjalah berpasangan.
+Work in groups of four.|Bekerjalah dalam kelompok berempat.
+Find a partner.|Cari pasangan.
+Turn to your partner.|Hadap ke pasanganmu.
+Make a circle.|Buat lingkaran.
+Move your chairs, please.|Tolong pindahkan kursi kalian.
+Take turns.|Bergantian, ya.
+Ask your friend.|Tanya temanmu.
+Share with your partner.|Bagikan dengan pasanganmu.
+Who wants to go first?|Siapa yang mau duluan?
+Group one, please present your work.|Kelompok satu, silakan presentasikan hasilnya.
+Go back to your places.|Kembali ke tempat kalian.
+## games|🎲|Games & Songs|Permainan & Lagu|Games are the best time for English-only talk. Students do not mind — they want to play!
+Let's play a game!|Ayo bermain!
+Let's sing a song.|Ayo bernyanyi.
+Make two teams.|Bentuk dua tim.
+This is team A, and this is team B.|Ini tim A, dan ini tim B.
+It's your turn.|Giliranmu.
+Ready? Go!|Siap? Mulai!
+Time's up!|Waktu habis!
+Who's the winner?|Siapa pemenangnya?
+Team B wins! Congratulations!|Tim B menang! Selamat!
+Simon says, touch your nose.|Simon berkata, sentuh hidungmu.
+Let's sing it again, louder!|Ayo nyanyikan lagi, lebih keras!
+## help|🩹|Helping Students|Membantu Siswa|Correct gently: repeat the sentence correctly and smile. No need to say “Wrong!”.
+What's wrong?|Ada apa?
+Are you okay?|Kamu baik-baik saja?
+Do you need help?|Perlu bantuan?
+Let me help you.|Saya bantu, ya.
+Do you feel sick?|Kamu merasa sakit?
+You can go to the school nurse.|Kamu boleh ke UKS.
+Have you got a pencil?|Kamu punya pensil?
+You can borrow my pen.|Kamu boleh pinjam pulpen saya.
+Say it in English, please.|Coba katakan dalam bahasa Inggris.
+Not "I am agree". We say "I agree".|Bukan "I am agree". Kita bilang "I agree".
+Listen again: "three", not "tree".|Dengar lagi: "three", bukan "tree".
+## ending|🏁|Ending the Lesson|Menutup Pelajaran|Finish with the same goodbye routine every day, like the opening.
+It's time to stop.|Sudah waktunya berhenti.
+What did we learn today?|Apa yang kita pelajari hari ini?
+Your homework is on page twenty-five.|PR kalian ada di halaman dua puluh lima.
+Don't forget your homework.|Jangan lupa PR-nya.
+Please tidy up your desks.|Tolong rapikan meja kalian.
+Put the rubbish in the bin.|Buang sampah ke tempat sampah.
+Let's pray before we go home.|Mari berdoa sebelum pulang.
+See you tomorrow!|Sampai jumpa besok!
+See you next week!|Sampai jumpa minggu depan!
+Goodbye, everyone. Have a nice day!|Sampai jumpa, semuanya. Semoga harimu menyenangkan!
+## students|🙋|What Students Say (teach these!)|Ucapan Siswa (ajarkan ini!)|Put these sentences on a classroom poster. Students may only ask in English — you can help them read it.
+Good morning, Miss / Sir.|Selamat pagi, Bu / Pak.
+Excuse me, Miss.|Permisi, Bu.
+May I come in?|Boleh saya masuk?
+May I go to the toilet, please?|Boleh saya ke toilet?
+Sorry, I'm late.|Maaf, saya terlambat.
+I don't understand.|Saya tidak mengerti.
+Can you repeat that, please?|Bisa diulangi?
+How do you say ... in English?|Bagaimana mengatakan ... dalam bahasa Inggris?
+What page, Miss?|Halaman berapa, Bu?
+I've finished.|Saya sudah selesai.
+I forgot my book.|Saya lupa membawa buku.
+Can I borrow your eraser?|Boleh saya pinjam penghapusmu?
+It's my turn!|Giliran saya!
+I don't feel well.|Saya merasa kurang enak badan.
+Thank you, Miss. Goodbye!|Terima kasih, Bu. Sampai jumpa!

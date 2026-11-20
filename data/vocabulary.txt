@@ -1,0 +1,759 @@
+## greet|👋|Greetings & Polite Words|Salam & Kata Sopan
+hello|halo
+hi|hai
+good morning|selamat pagi
+good afternoon|selamat siang / sore
+good evening|selamat malam (sapaan)
+good night|selamat tidur / selamat malam (pamit)
+goodbye|selamat tinggal / sampai jumpa
+bye|dah / dadah
+see you|sampai jumpa
+please|tolong / silakan
+thank you|terima kasih
+thanks|makasih
+you're welcome|sama-sama
+sorry|maaf
+excuse me|permisi
+yes|ya
+no|tidak / bukan
+okay|oke / baik
+welcome|selamat datang
+name|nama
+Mr|Bapak (Pak)
+Mrs|Ibu (Bu)
+Miss|Ibu guru (Bu) / Nona
+friend|teman
+everyone|semuanya
+## objects|✏️|Classroom Objects|Benda di Kelas
+book|buku
+notebook|buku tulis
+pen|pulpen
+pencil|pensil
+eraser|penghapus
+ruler|penggaris
+pencil case|kotak pensil
+sharpener|rautan pensil
+bag|tas
+schoolbag|tas sekolah
+desk|meja belajar
+table|meja
+chair|kursi
+board|papan tulis
+whiteboard|papan tulis putih
+marker|spidol
+chalk|kapur
+paper|kertas
+crayon|krayon
+glue|lem
+scissors|gunting
+computer|komputer
+clock|jam dinding
+door|pintu
+window|jendela
+wall|dinding
+floor|lantai
+picture|gambar
+poster|poster
+map|peta
+bin|tempat sampah
+shelf|rak
+cupboard|lemari
+page|halaman
+dictionary|kamus
+worksheet|lembar kerja
+homework|PR (pekerjaan rumah)
+test|ulangan / tes
+card|kartu
+sticker|stiker
+box|kotak
+light|lampu
+fan|kipas angin
+flag|bendera
+calendar|kalender
+tablet|tablet
+projector|proyektor
+## school|🏫|School Places & People|Tempat & Orang di Sekolah
+school|sekolah
+classroom|ruang kelas
+class|kelas
+library|perpustakaan
+playground|taman bermain sekolah
+canteen|kantin
+toilet|toilet
+office|kantor
+teachers' room|ruang guru
+hall|aula
+field|lapangan
+garden|kebun / taman
+prayer room|musala
+gate|gerbang
+teacher|guru
+student|siswa
+pupil|murid
+principal|kepala sekolah
+classmate|teman sekelas
+boy|anak laki-laki
+girl|anak perempuan
+child|anak
+children|anak-anak
+team|tim / regu
+group|kelompok
+partner|pasangan
+line|barisan
+row|baris
+seat|tempat duduk
+lesson|pelajaran
+break time|jam istirahat
+timetable|jadwal pelajaran
+uniform|seragam
+flag ceremony|upacara bendera
+## subjects|📚|School Subjects|Mata Pelajaran
+subject|mata pelajaran
+English|Bahasa Inggris
+Indonesian|Bahasa Indonesia
+maths|matematika
+science|IPA / IPAS
+social studies|IPS
+art|seni rupa
+music|musik
+dance|tari
+PE|PJOK / olahraga
+religion|pendidikan agama
+Pancasila|Pendidikan Pancasila
+reading|membaca
+writing|menulis
+spelling|ejaan
+## actions|🙋|Classroom Actions|Kata Kerja di Kelas
+listen|dengarkan
+look|lihat
+watch|tonton / perhatikan
+read|baca
+write|tulis
+say|katakan / ucapkan
+repeat|ulangi
+speak|berbicara
+talk|bicara / mengobrol
+tell|beri tahu / ceritakan
+ask|bertanya
+answer|jawab
+sit down|duduk
+stand up|berdiri
+open|buka
+close|tutup
+come|datang / kemari
+go|pergi
+give|beri
+take|ambil
+put|taruh / letakkan
+show|tunjukkan
+point|tunjuk
+touch|sentuh
+draw|gambar / menggambar
+colour|warnai / warna
+cut|gunting / potong
+stick|tempel
+match|jodohkan / pasangkan
+circle|lingkari
+tick|centang
+underline|garis bawahi
+copy|salin
+check|periksa / cek
+spell|eja
+count|hitung
+sing|bernyanyi
+clap|tepuk tangan
+jump|lompat
+run|lari
+walk|jalan
+stop|berhenti
+start|mulai
+finish|selesai / selesaikan
+wait|tunggu
+help|bantu / tolong
+try|coba
+think|pikir / berpikir
+know|tahu
+understand|mengerti
+remember|ingat
+forget|lupa
+choose|pilih
+find|temukan / cari
+make|buat
+do|lakukan / kerjakan
+work|bekerja
+practise|berlatih
+learn|belajar
+study|belajar (mempelajari)
+teach|mengajar
+explain|jelaskan
+guess|tebak
+act|peragakan
+mime|peragakan tanpa bicara
+raise your hand|angkat tangan
+line up|berbaris
+tidy up|rapikan
+clean|bersihkan / bersih
+wash|cuci
+throw|lempar
+catch|tangkap
+pass|oper / berikan
+share|berbagi
+swap|tukar
+turn around|berbalik
+hurry up|ayo cepat
+fold|lipat
+hold|pegang
+pick up|ambil (dari bawah)
+bring|bawa
+borrow|meminjam
+lend|meminjamkan
+carry|membawa / mengangkat
+## numbers|🔢|Numbers, Maths & Shapes|Angka, Matematika & Bentuk
+zero|nol
+one|satu
+two|dua
+three|tiga
+four|empat
+five|lima
+six|enam
+seven|tujuh
+eight|delapan
+nine|sembilan
+ten|sepuluh
+eleven|sebelas
+twelve|dua belas
+thirteen|tiga belas
+fourteen|empat belas
+fifteen|lima belas
+sixteen|enam belas
+seventeen|tujuh belas
+eighteen|delapan belas
+nineteen|sembilan belas
+twenty|dua puluh
+thirty|tiga puluh
+forty|empat puluh
+fifty|lima puluh
+sixty|enam puluh
+seventy|tujuh puluh
+eighty|delapan puluh
+ninety|sembilan puluh
+hundred|seratus
+thousand|seribu
+first|pertama
+second|kedua
+third|ketiga
+fourth|keempat
+fifth|kelima
+last|terakhir
+next|berikutnya
+number|angka / nomor
+plus|tambah
+minus|kurang
+times|kali
+divided by|dibagi
+equals|sama dengan
+add|menambahkan
+take away|mengurangi
+half|setengah
+quarter|seperempat
+more|lebih banyak
+less|lebih sedikit
+total|jumlah / total
+shape|bentuk
+square|persegi
+triangle|segitiga
+rectangle|persegi panjang
+star|bintang
+heart|hati (bentuk hati)
+dot|titik
+## colours|🎨|Colours|Warna
+red|merah
+blue|biru
+yellow|kuning
+green|hijau
+orange|oranye / jingga
+purple|ungu
+pink|merah muda
+brown|cokelat
+black|hitam
+white|putih
+grey|abu-abu
+gold|emas
+silver|perak
+dark|gelap / tua
+light blue|biru muda
+## time|📅|Days, Months & Time|Hari, Bulan & Waktu
+Monday|Senin
+Tuesday|Selasa
+Wednesday|Rabu
+Thursday|Kamis
+Friday|Jumat
+Saturday|Sabtu
+Sunday|Minggu
+January|Januari
+February|Februari
+March|Maret
+April|April
+May|Mei
+June|Juni
+July|Juli
+August|Agustus
+September|September
+October|Oktober
+November|November
+December|Desember
+day|hari
+week|minggu (pekan)
+month|bulan
+year|tahun
+today|hari ini
+tomorrow|besok
+yesterday|kemarin
+morning|pagi
+afternoon|siang / sore
+evening|petang / malam
+night|malam
+now|sekarang
+later|nanti
+soon|segera
+early|awal / lebih awal
+late|terlambat
+o'clock|pukul (tepat)
+half past|setengah (half past 7 = 7.30)
+minute|menit
+hour|jam
+time|waktu
+date|tanggal
+birthday|ulang tahun
+holiday|liburan
+weekend|akhir pekan
+always|selalu
+usually|biasanya
+sometimes|kadang-kadang
+never|tidak pernah
+every day|setiap hari
+before|sebelum
+after|sesudah
+then|lalu / kemudian
+again|lagi
+rainy season|musim hujan
+dry season|musim kemarau
+## weather|🌤️|Weather & Nature|Cuaca & Alam
+weather|cuaca
+sun|matahari
+sunny|cerah
+rain|hujan
+rainy|hujan (berhujan)
+cloud|awan
+cloudy|berawan
+wind|angin
+windy|berangin
+hot|panas
+cold|dingin
+warm|hangat
+cool|sejuk
+storm|badai
+rainbow|pelangi
+sky|langit
+moon|bulan
+earth|bumi
+sea|laut
+beach|pantai
+mountain|gunung
+volcano|gunung berapi
+river|sungai
+lake|danau
+island|pulau
+tree|pohon
+flower|bunga
+grass|rumput
+leaf|daun
+plant|tanaman
+stone|batu
+sand|pasir
+water|air
+fire|api
+forest|hutan
+park|taman
+rice field|sawah
+## body|🧒|My Body & Health|Tubuh & Kesehatan
+body|tubuh / badan
+head|kepala
+hair|rambut
+face|wajah
+eye|mata
+ear|telinga
+nose|hidung
+mouth|mulut
+tooth|gigi
+teeth|gigi (jamak)
+neck|leher
+shoulder|bahu
+arm|lengan
+hand|tangan
+finger|jari
+leg|kaki (tungkai)
+knee|lutut
+foot|kaki (telapak)
+feet|kaki (jamak)
+toe|jari kaki
+back|punggung
+tummy|perut
+sick|sakit
+headache|sakit kepala
+stomachache|sakit perut
+a cold|pilek
+fever|demam
+cough|batuk
+hurt|sakit / terluka
+doctor|dokter
+nurse|perawat
+hospital|rumah sakit
+medicine|obat
+healthy|sehat
+## feelings|😊|Feelings & Describing People|Perasaan & Sifat
+happy|senang / bahagia
+sad|sedih
+angry|marah
+scared|takut
+tired|lelah / capek
+hungry|lapar
+thirsty|haus
+bored|bosan
+excited|bersemangat
+sleepy|mengantuk
+fine|baik-baik saja
+good|baik / bagus
+great|hebat
+surprised|terkejut
+nervous|gugup
+kind|baik hati
+friendly|ramah
+funny|lucu
+clever|pintar
+quiet|pendiam / tenang
+noisy|berisik / ribut
+shy|pemalu
+brave|berani
+polite|sopan
+tall|tinggi
+short|pendek
+young|muda
+old|tua / lama
+beautiful|cantik / indah
+handsome|tampan
+strong|kuat
+fast|cepat
+slow|lambat
+## family|👨‍👩‍👧|Family & People|Keluarga & Orang
+family|keluarga
+mother|ibu
+father|ayah
+mum|ibu (mama)
+dad|ayah (papa)
+parents|orang tua
+brother|saudara laki-laki
+sister|saudara perempuan
+grandmother|nenek
+grandfather|kakek
+grandma|nenek
+grandpa|kakek
+baby|bayi
+son|anak laki-laki (putra)
+daughter|anak perempuan (putri)
+uncle|paman / om
+aunt|bibi / tante
+cousin|sepupu
+man|laki-laki dewasa
+woman|perempuan dewasa
+people|orang-orang
+person|orang
+neighbour|tetangga
+best friend|sahabat
+## home|🏠|Home & Daily Routine|Rumah & Kegiatan Sehari-hari
+house|rumah
+home|rumah (tempat tinggal)
+room|kamar / ruangan
+bedroom|kamar tidur
+bathroom|kamar mandi
+kitchen|dapur
+living room|ruang keluarga
+bed|tempat tidur
+sofa|sofa
+lamp|lampu meja
+TV|televisi
+phone|telepon / HP
+mirror|cermin
+wake up|bangun tidur
+get up|bangun dari tempat tidur
+have a shower|mandi
+brush your teeth|sikat gigi
+get dressed|berpakaian
+have breakfast|sarapan
+go to school|pergi ke sekolah
+go home|pulang
+do homework|mengerjakan PR
+watch TV|menonton TV
+go to bed|pergi tidur
+sleep|tidur
+pray|berdoa
+cook|memasak
+eat|makan
+drink|minum
+play|bermain
+## food|🍎|Food & Drink|Makanan & Minuman
+food|makanan
+milk|susu
+tea|teh
+juice|jus
+coffee|kopi
+rice|nasi / beras
+bread|roti
+egg|telur
+chicken|ayam
+fish|ikan
+meat|daging
+noodles|mi
+soup|sup
+cake|kue
+biscuit|biskuit
+sweets|permen
+ice cream|es krim
+fruit|buah
+apple|apel
+banana|pisang
+mango|mangga
+grapes|anggur
+watermelon|semangka
+papaya|pepaya
+coconut|kelapa
+vegetable|sayur
+carrot|wortel
+potato|kentang
+tomato|tomat
+corn|jagung
+sandwich|roti lapis
+breakfast|sarapan
+lunch|makan siang
+dinner|makan malam
+snack|camilan
+sugar|gula
+salt|garam
+delicious|enak / lezat
+sweet|manis
+plate|piring
+bowl|mangkuk
+cup|cangkir
+glass|gelas
+bottle|botol
+spoon|sendok
+fork|garpu
+knife|pisau
+lunchbox|kotak bekal
+## animals|🐘|Animals|Hewan
+animal|hewan / binatang
+cat|kucing
+dog|anjing
+bird|burung
+duck|bebek
+cow|sapi
+goat|kambing
+horse|kuda
+sheep|domba
+pig|babi
+rabbit|kelinci
+mouse|tikus
+elephant|gajah
+tiger|harimau
+lion|singa
+monkey|monyet
+snake|ular
+frog|katak
+crocodile|buaya
+giraffe|jerapah
+zebra|zebra
+bear|beruang
+butterfly|kupu-kupu
+bee|lebah
+ant|semut
+spider|laba-laba
+turtle|kura-kura / penyu
+dolphin|lumba-lumba
+whale|paus
+insect|serangga
+pet|hewan peliharaan
+zoo|kebun binatang
+farm|peternakan / pertanian
+tail|ekor
+wing|sayap
+## clothes|👕|Clothes|Pakaian
+clothes|pakaian / baju
+shirt|kemeja
+T-shirt|kaus
+trousers|celana panjang
+shorts|celana pendek
+skirt|rok
+dress|gaun
+jacket|jaket
+hat|topi
+cap|topi pet
+shoes|sepatu
+socks|kaus kaki
+belt|ikat pinggang
+tie|dasi
+glasses|kacamata
+watch (n)|jam tangan
+sandals|sandal
+wear|memakai
+put on|mengenakan
+take off|melepas
+## places|🚌|Places, Directions & Transport|Tempat, Arah & Transportasi
+town|kota kecil
+city|kota
+village|desa
+street|jalan
+road|jalan raya
+shop|toko
+market|pasar
+supermarket|supermarket
+bank|bank
+post office|kantor pos
+police station|kantor polisi
+restaurant|restoran
+mosque|masjid
+temple|pura / kuil
+church|gereja
+bus|bus
+car|mobil
+bike|sepeda
+motorbike|sepeda motor
+train|kereta api
+plane|pesawat
+boat|perahu
+ship|kapal
+taxi|taksi
+bus stop|halte bus
+near|dekat
+far|jauh
+turn left|belok kiri
+turn right|belok kanan
+straight on|lurus terus
+here|di sini
+there|di sana
+## hobbies|⚽|Hobbies & Sports|Hobi & Olahraga
+hobby|hobi
+football|sepak bola
+badminton|bulu tangkis
+basketball|bola basket
+volleyball|bola voli
+swimming|berenang
+running|berlari
+cycling|bersepeda
+kite|layang-layang
+game|permainan
+toy|mainan
+doll|boneka
+ball|bola
+guitar|gitar
+piano|piano
+drum|drum / gendang
+song|lagu
+story|cerita
+film|film
+photo|foto
+paint|melukis / cat
+swim|berenang
+ride|mengendarai / naik
+fly|terbang
+climb|memanjat
+like|suka
+love|sangat suka / cinta
+favourite|favorit / kesukaan
+win|menang
+lose|kalah
+## adjectives|📏|Describing Things|Kata Sifat Benda
+big|besar
+small|kecil
+long|panjang
+new|baru
+bad|buruk / jelek
+easy|mudah
+difficult|sulit
+right|benar
+wrong|salah
+correct|tepat / benar
+true|benar (fakta)
+false|salah (fakta)
+same|sama
+different|berbeda
+dirty|kotor
+full|penuh
+empty|kosong
+closed|tertutup
+high|tinggi (letak)
+low|rendah
+heavy|berat
+round|bulat
+nice|bagus / menyenangkan
+loud|keras (suara)
+soft|lembut
+hard|keras / sulit
+wet|basah
+dry|kering
+ready|siap
+finished|selesai
+quick|cepat
+## words|❓|Question & Small Words|Kata Tanya & Kata Kecil
+what|apa
+who|siapa
+where|di mana
+when|kapan
+why|mengapa
+how|bagaimana
+which|yang mana
+whose|milik siapa
+how many|berapa (banyak)
+how old|berapa umur
+this|ini
+that|itu
+these|ini (jamak)
+those|itu (jamak)
+I|saya / aku
+you|kamu / Anda / kalian
+he|dia (laki-laki)
+she|dia (perempuan)
+it|itu / ia (benda)
+we|kita / kami
+they|mereka
+my|-ku / milik saya
+your|-mu / milikmu
+his|miliknya (laki-laki)
+her|miliknya (perempuan)
+our|milik kita
+their|milik mereka
+and|dan
+but|tetapi
+or|atau
+because|karena
+with|dengan
+in|di dalam
+on|di atas
+under|di bawah
+next to|di sebelah
+behind|di belakang
+in front of|di depan
+between|di antara
+up|ke atas
+down|ke bawah
+can|bisa / boleh
+can't|tidak bisa / tidak boleh
+very|sangat
+too|juga / terlalu
+also|juga
+not|tidak / bukan
+all|semua
+some|beberapa
+many|banyak (bisa dihitung)
+much|banyak (tak dihitung)
+a lot of|banyak
+a little|sedikit

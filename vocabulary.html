@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Vocabulary · Classroom English</title>
+  <meta name="description" content="739 CEFR A1 words in 20 themes with Indonesian meanings, audio, flashcards and a quiz.">
+  <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121a16" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/tts.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/vocabulary.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="var(--green)"/><path d="M10 25 16 9l6 16M12.3 19.5h7.4" fill="none" stroke="var(--on-green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="26.5" cy="9.5" r="3" fill="var(--marigold)"/></svg>
+        <span class="brand-text"><strong>Classroom English</strong><span>untuk Guru SD · Kelas 3–6</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="vocabulary.html" aria-current="page">Vocabulary</a></li>
+          <li><a href="phrases.html">Classroom Phrases</a></li>
+          <li><a href="conversation.html">Conversation Practice</a></li>
+        </ul>
+      </nav>
+      <button class="audio-btn" type="button" popovertarget="audio-panel">
+        <svg class="icon" aria-hidden="true"><use href="#i-headphones"/></svg><span class="label-long">Audio</span><span class="visually-hidden"> settings</span>
+      </button>
+    </div>
+  </header>
+
+  <div id="audio-panel" class="audio-panel" popover aria-label="Audio settings">
+    <h2>Audio settings</h2>
+    <fieldset>
+      <legend>Accent</legend>
+      <div class="segmented">
+        <label><input type="radio" name="accent" value="en-GB"><span>British</span></label>
+        <label><input type="radio" name="accent" value="en-US"><span>American</span></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Speed</legend>
+      <div class="segmented">
+        <label><input type="radio" name="speed" value="slow"><span>Slow</span></label>
+        <label><input type="radio" name="speed" value="normal"><span>Normal</span></label>
+        <label><input type="radio" name="speed" value="fast"><span>Fast</span></label>
+      </div>
+    </fieldset>
+    <p class="note" data-audio-note>Uses your device's built-in English voice. Works best in Google Chrome.</p>
+  </div>
+
+  <main id="main">
+    <div class="container">
+      <header class="page-head">
+        <div class="head-row">
+          <div>
+            <p class="eyebrow">Kosakata A1 untuk guru kelas 3–6 SD</p>
+            <h1>Classroom Word Bank</h1>
+            <p>739 useful words in 20 themes. Tap a word to hear it, tick it when you know it. Your progress is saved in this browser.</p>
+          </div>
+          <fieldset class="segmented">
+            <legend class="visually-hidden">Practice mode</legend>
+            <label><input type="radio" name="mode" value="list" checked><span><svg class="icon" aria-hidden="true"><use href="#i-list"/></svg>Word list</span></label>
+            <label><input type="radio" name="mode" value="cards"><span><svg class="icon" aria-hidden="true"><use href="#i-cards"/></svg>Flashcards</span></label>
+            <label><input type="radio" name="mode" value="quiz"><span><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>Quiz</span></label>
+          </fieldset>
+        </div>
+      </header>
+      <div class="workspace">
+        <aside aria-labelledby="topics-label">
+          <p class="aside-label" id="topics-label">Themes</p>
+          <ul class="topic-list" id="topics" aria-label="Themes"></ul>
+        </aside>
+        <section aria-label="Words">
+          <div class="toolbar">
+            <label class="search grow">
+              <span class="visually-hidden">Search English or Indonesian</span>
+              <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><input type="search" id="q" placeholder="Search English or Indonesian…" autocomplete="off">
+            </label>
+            <div class="progress" id="progress"></div>
+          </div>
+          <div id="view"></div>
+          <p class="visually-hidden" id="live" aria-live="polite"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Audio uses your device's built-in English voice — works best in Google Chrome. Choose a British or American accent and a slower speed under <strong>Audio</strong> at the top of every page.</p>
+      <p>Illustrations: <a href="https://kitbitz.art/">Kitbitz</a> (CC0).</p>
+    </div>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Main (mobile)">
+    <ul>
+      <li><a href="index.html"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg>Home</a></li>
+      <li><a href="vocabulary.html" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>Words</a></li>
+      <li><a href="phrases.html"><svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg>Phrases</a></li>
+      <li><a href="conversation.html"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Talk</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

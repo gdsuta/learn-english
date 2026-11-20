@@ -20,7 +20,7 @@ This project started as a prototype built in Google Sites and is now being devel
 - **Quiz**: 10 questions per round, in two modes: *Listen → choose the meaning* and *Indonesian → English*
 
 ### 🗣️ Classroom Phrases
-- **143 ready-to-use sentences** in 12 lesson stages: starting the lesson, taking the register, giving instructions, checking understanding, praise, managing the class, pair & group work, games & songs, helping students, ending the lesson, and *What Students Say*
+- **143 ready-to-use sentences** in 11 lesson stages: starting the lesson, taking the register, giving instructions, checking understanding, praise, managing the class, pair & group work, games & songs, helping students, ending the lesson, and *What Students Say*
 - A practical teaching tip for every stage
 - **Play all** pauses after each sentence so teachers can repeat it aloud
 - **Hide Indonesian** and **Test me (hide English)** modes for self-checking
@@ -105,11 +105,12 @@ T: Yes, come in, Rizky. You're late. What happened?|Ya, masuk, Rizky. Kamu terla
 ├── conversation.html       # Dialogues & role-play
 ├── assets/
 │   ├── css/style.css       # Shared styles
-│   ├── js/tts.js           # Shared text-to-speech helper
+│   ├── js/tts.js           # Shared text-to-speech + speech-recognition helper
+│   ├── js/app.js           # Shared helpers: icons, data parsing, audio settings
 │   ├── js/vocabulary.js
 │   ├── js/phrases.js
 │   ├── js/conversation.js
-│   └── img/                # Illustrations
+│   └── img/favicon.svg
 ├── data/
 │   ├── vocabulary.txt
 │   ├── phrases.txt

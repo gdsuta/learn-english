@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Classroom Phrases · Classroom English</title>
+  <meta name="description" content="143 ready-to-use classroom sentences in 11 lesson stages, with Indonesian translations, teaching tips and audio.">
+  <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121a16" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/tts.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/phrases.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="var(--green)"/><path d="M10 25 16 9l6 16M12.3 19.5h7.4" fill="none" stroke="var(--on-green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="26.5" cy="9.5" r="3" fill="var(--marigold)"/></svg>
+        <span class="brand-text"><strong>Classroom English</strong><span>untuk Guru SD · Kelas 3–6</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="vocabulary.html">Vocabulary</a></li>
+          <li><a href="phrases.html" aria-current="page">Classroom Phrases</a></li>
+          <li><a href="conversation.html">Conversation Practice</a></li>
+        </ul>
+      </nav>
+      <button class="audio-btn" type="button" popovertarget="audio-panel">
+        <svg class="icon" aria-hidden="true"><use href="#i-headphones"/></svg><span class="label-long">Audio</span><span class="visually-hidden"> settings</span>
+      </button>
+    </div>
+  </header>
+
+  <div id="audio-panel" class="audio-panel" popover aria-label="Audio settings">
+    <h2>Audio settings</h2>
+    <fieldset>
+      <legend>Accent</legend>
+      <div class="segmented">
+        <label><input type="radio" name="accent" value="en-GB"><span>British</span></label>
+        <label><input type="radio" name="accent" value="en-US"><span>American</span></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Speed</legend>
+      <div class="segmented">
+        <label><input type="radio" name="speed" value="slow"><span>Slow</span></label>
+        <label><input type="radio" name="speed" value="normal"><span>Normal</span></label>
+        <label><input type="radio" name="speed" value="fast"><span>Fast</span></label>
+      </div>
+    </fieldset>
+    <p class="note" data-audio-note>Uses your device's built-in English voice. Works best in Google Chrome.</p>
+  </div>
+
+  <main id="main">
+    <div class="container">
+      <header class="page-head">
+        <div class="head-row">
+          <div>
+            <p class="eyebrow">Ungkapan kelas</p>
+            <h1>Classroom Phrases</h1>
+            <p>143 sentences for every part of your lesson. <strong>Play all</strong> pauses after each sentence so you can repeat it aloud.</p>
+          </div>
+          <fieldset class="segmented">
+            <legend class="visually-hidden">Show</legend>
+            <label><input type="radio" name="show" value="both" checked><span><svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg>Both</span></label>
+            <label><input type="radio" name="show" value="hide-id"><span><svg class="icon" aria-hidden="true"><use href="#i-eye-off"/></svg>Hide Indonesian</span></label>
+            <label><input type="radio" name="show" value="test"><span><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>Test me</span></label>
+          </fieldset>
+        </div>
+      </header>
+      <div class="workspace">
+        <aside aria-labelledby="topics-label">
+          <p class="aside-label" id="topics-label">Lesson stages</p>
+          <ul class="topic-list" id="topics" aria-label="Lesson stages"></ul>
+        </aside>
+        <section aria-label="Phrases">
+          <div id="view"></div>
+          <p class="visually-hidden" id="live" aria-live="polite"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Audio uses your device's built-in English voice — works best in Google Chrome. Choose a British or American accent and a slower speed under <strong>Audio</strong> at the top of every page.</p>
+      <p>Illustrations: <a href="https://kitbitz.art/">Kitbitz</a> (CC0).</p>
+    </div>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Main (mobile)">
+    <ul>
+      <li><a href="index.html"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg>Home</a></li>
+      <li><a href="vocabulary.html"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg>Words</a></li>
+      <li><a href="phrases.html" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg>Phrases</a></li>
+      <li><a href="conversation.html"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg>Talk</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
